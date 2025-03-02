@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<responses>
+    <greetings>
+        <morning>Good Morning, Sir!</morning>
+        <afternoon>Good Afternoon, Sir!</afternoon>
+        <evening>Good Evening, Sir!</evening>
+        <night>Good Night, Sir!</night>
+    </greetings>
+    <whoAreYou>I am Viras, your virtual assistant created by Sai Krishna and Team.</whoAreYou>
+</responses>

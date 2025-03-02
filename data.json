@@ -1,0 +1,9 @@
+{
+    "greetings": {
+        "morning": "Good Morning, Sir!",
+        "afternoon": "Good Afternoon, Sir!",
+        "evening": "Good Evening, Sir!",
+        "night": "Good Night, Sir!"
+    },
+    "whoAreYou": "I am Viras, your virtual assistant created by Sai Krishna and Team."
+}

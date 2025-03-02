@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+/* 🔹 Logo Styling */
+.logo-container {
+    position: relative;
+    display: inline-block;
+}
+
+#logo {
+    margin-top: 30px;
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* 🔹 Logo Hover Effect */
+#logo:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.9);
+}
+
+/* 🔹 Title Styling */
+h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: 20px 0;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+/* 🔹 Styling for Assistant Name */
+#name {
+    color: #ff4081;
+    font-size: 50px;
+}
+#va {
+    color: #00d4ff;
+    font-size: 50px;
+}
+
+/* 🔹 Voice Icon */
+#voice {
+    width: 80px;
+    display: none;
+}
+
+/* 🔹 Button */
+#btn {
+    width: 320px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 0px 5px 20px rgba(106, 17, 203, 0.5);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#btn img {
+    width: 25px;
+}
+
+#btn:hover {
+    background: linear-gradient(to right, #ff758c, #2575fc, #6a11cb); /* Added soft pink (#ff758c) */
+    box-shadow: 0px 15px 35px rgba(255, 117, 140, 0.6), 0px 5px 15px rgba(106, 17, 203, 0.5); /* Soft pink & blue shadow */
+    transform: scale(1.1);
+}
+
+
+/* 🔹 Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    #name, #va {
+        font-size: 40px;
+    }
+    #btn {
+        width: 270px;
+        font-size: 16px;
+    }
+}
