@@ -64,6 +64,7 @@ h1 {
 #voice {
     width: 80px;
     display: none;
+    background:transparent;
 }
 
 /* 🔹 Button */
