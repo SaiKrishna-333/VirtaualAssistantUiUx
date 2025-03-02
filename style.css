@@ -17,7 +17,6 @@ body {
     flex-direction: column;
     text-align: center;
     color: white;
-    overflow: hidden;
 }
 
 /* 🔹 Logo Styling */
@@ -28,88 +27,83 @@ body {
 
 #logo {
     margin-top: 30px;
-    width: 140px;
+    width: 120px;
     border-radius: 50%;
-    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.3);
-    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 /* 🔹 Logo Hover Effect */
 #logo:hover {
-    transform: scale(1.3);
-    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.9);
+    transform: scale(1.2);
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.9);
 }
 
 /* 🔹 Title Styling */
 h1 {
-    font-size: 3.5rem;
-    font-weight: 700;
+    font-size: 2.8rem;
+    font-weight: 600;
     margin: 20px 0;
-    letter-spacing: 1.8px;
+    letter-spacing: 1.2px;
     text-transform: uppercase;
-    text-shadow: 0px 0px 25px rgba(255, 255, 255, 0.9);
 }
 
 /* 🔹 Styling for Assistant Name */
 #name {
-    color: #ff00ff;
-    font-size: 60px;
-    text-shadow: 0px 0px 30px rgba(255, 0, 255, 1);
+    color: #ff4081;
+    font-size: 50px;
 }
-
 #va {
-    color: #00ffff;
-    font-size: 60px;
-    text-shadow: 0px 0px 30px rgba(0, 255, 255, 1);
+    color: #00d4ff;
+    font-size: 50px;
 }
 
 /* 🔹 Voice Icon */
 #voice {
     width: 80px;
     display: none;
-    background:transparent;
 }
 
 /* 🔹 Button */
 #btn {
-    width: 360px;
-    background: linear-gradient(90deg, #ff00ff, #00ffff, #ff00ff);
-    padding: 18px 35px;
+    width: 320px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    padding: 15px 25px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
-    font-size: 22px;
+    gap: 10px;
+    font-size: 18px;
     font-weight: bold;
     border-radius: 50px;
     color: white;
-    box-shadow: 0px 0px 40px rgba(255, 0, 255, 0.8), 0px 0px 30px rgba(0, 255, 255, 0.8);
+    box-shadow: 0px 5px 20px rgba(106, 17, 203, 0.5);
     border: none;
     cursor: pointer;
-    transition: all 0.4s ease-in-out;
-    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
 }
 
 #btn img {
-    width: 30px;
+    width: 25px;
 }
 
 #btn:hover {
-    background: linear-gradient(90deg, #ff0080, #00ff80, #ff0080);
-    box-shadow: 0px 0px 60px rgba(255, 0, 128, 1), 0px 0px 40px rgba(0, 255, 128, 1);
-    transform: scale(1.15);
+    background: linear-gradient(to right, #ff758c, #2575fc, #6a11cb); /* Added soft pink (#ff758c) */
+    box-shadow: 0px 15px 35px rgba(255, 117, 140, 0.6), 0px 5px 15px rgba(106, 17, 203, 0.5); /* Soft pink & blue shadow */
+    transform: scale(1.1);
 }
+
 
 /* 🔹 Responsive Design */
 @media (max-width: 768px) {
     h1 {
-        font-size: 2.8rem;
+        font-size: 2.2rem;
     }
     #name, #va {
-        font-size: 50px;
+        font-size: 40px;
     }
     #btn {
-        width: 290px;
-        font-size: 20px;
+        width: 270px;
+        font-size: 16px;
     }
 }
