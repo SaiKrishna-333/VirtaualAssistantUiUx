@@ -7,10 +7,11 @@
     font-family: 'Raleway', sans-serif;
 }
 
+
 body {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    background: linear-gradient(to bottom, #0a192f, #1e3c72, #2a5298, #4a90e2, #a0c4ff);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,6 +19,7 @@ body {
     text-align: center;
     color: white;
 }
+
 
 /* 🔹 Logo Styling */
 .logo-container {
@@ -88,8 +90,8 @@ h1 {
 }
 
 #btn:hover {
-    background: linear-gradient(to right, #ff758c, #2575fc, #6a11cb); /* Added soft pink (#ff758c) */
-    box-shadow: 0px 15px 35px rgba(255, 117, 140, 0.6), 0px 5px 15px rgba(106, 17, 203, 0.5); /* Soft pink & blue shadow */
+    background: linear-gradient(to right, #ff4081, #2575fc, #6a11cb); 
+    box-shadow: 0px 15px 35px #ff4081, 0px 5px 15px rgba(106, 17, 203, 0.5); 
     transform: scale(1.1);
 }
 
